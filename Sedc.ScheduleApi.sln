@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sedc.ScheduleApi.Data", "Sedc.ScheduleApi.Data\Sedc.ScheduleApi.Data.xproj", "{5F9B0432-8BBD-4629-A36B-AE933AA1C954}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sedc.ScheduleApi.Model", "Sedc.ScheduleApi.Model\Sedc.ScheduleApi.Model.xproj", "{6DC480B5-91B6-4262-9C3D-A0FA11FB7891}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sedc.ScheduleApi.WebApi", "Sedc.ScheduleApi.WebApi\Sedc.ScheduleApi.WebApi.xproj", "{42D47157-5F7A-48B9-8221-B569E9259142}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sedc.ScheduleApi.TestWebClient", "Sedc.ScheduleApi.TestWebClient\Sedc.ScheduleApi.TestWebClient.xproj", "{00A31739-79D0-4B15-86FD-491FED0836F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sedc.ScheduleApi.TestWinClient", "Sedc.ScheduleApi.TestWinClient\Sedc.ScheduleApi.TestWinClient.csproj", "{76125954-8C75-4842-A5DB-C9684C8862B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F9B0432-8BBD-4629-A36B-AE933AA1C954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9B0432-8BBD-4629-A36B-AE933AA1C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9B0432-8BBD-4629-A36B-AE933AA1C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9B0432-8BBD-4629-A36B-AE933AA1C954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC480B5-91B6-4262-9C3D-A0FA11FB7891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC480B5-91B6-4262-9C3D-A0FA11FB7891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC480B5-91B6-4262-9C3D-A0FA11FB7891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC480B5-91B6-4262-9C3D-A0FA11FB7891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D47157-5F7A-48B9-8221-B569E9259142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D47157-5F7A-48B9-8221-B569E9259142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D47157-5F7A-48B9-8221-B569E9259142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D47157-5F7A-48B9-8221-B569E9259142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A31739-79D0-4B15-86FD-491FED0836F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A31739-79D0-4B15-86FD-491FED0836F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A31739-79D0-4B15-86FD-491FED0836F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A31739-79D0-4B15-86FD-491FED0836F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76125954-8C75-4842-A5DB-C9684C8862B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76125954-8C75-4842-A5DB-C9684C8862B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76125954-8C75-4842-A5DB-C9684C8862B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76125954-8C75-4842-A5DB-C9684C8862B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

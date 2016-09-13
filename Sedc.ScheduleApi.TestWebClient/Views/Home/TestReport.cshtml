@@ -1,0 +1,29 @@
+﻿<h2>Test Web Api Report</h2>
+
+<table id="coursesReport"></table>
+
+@section scripts
+{
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $.ajax("http://localhost:3975/api/course/report", {
+                success: function (data) {
+                    $('#coursesReport').DataTable({
+                        data: data,
+                        columns: [
+                        { title: "Course Name", data: "courseName" },
+                        { title: "Hours length", data: "courseLengthHours" },
+                        { title: "Total Hours Attended", data: "totalAttendedHours" },
+                        { title: "Attendance %", data: "attendance" },
+                        { title: "Students Attending", data: "studentsAttending" },
+                        ],
+                        order: [[3, "desc"]]
+                    });
+                }
+            });
+        });
+    </script>
+}

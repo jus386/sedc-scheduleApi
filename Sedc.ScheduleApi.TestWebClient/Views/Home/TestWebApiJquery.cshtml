@@ -1,0 +1,21 @@
+﻿<h2>Test Web Api</h2>
+<ul id="coursesPlaceholder"></ul>
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $.ajax("http://localhost:3975/api/course/", {
+                success: function (data) {
+                    $.each(data, function () {
+                        var liHtml = '<li>' +
+                              '<h3>' + this.name + '</h3>' +
+                              '<div>' + this.description + '</div>' +
+                              '<div>' + this.lengthHours + 'hours</div>' +
+                          '</li>';
+                        $("#coursesPlaceholder").append(liHtml);
+                    });
+                }
+            });
+        });
+    </script>
+}
